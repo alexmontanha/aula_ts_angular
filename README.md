@@ -1,27 +1,31 @@
-# AulaTsAngular
+# Projeto de Formulário Angular com Busca de CEP
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.1.
+**Objetivo:** Desenvolver um formulário em Angular que coleta informações pessoais e de endereço de um usuário. O formulário deve ser esteticamente agradável e seguir as melhores práticas de desenvolvimento de software.
 
-## Development server
+**Descrição do Projeto:**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Você deve criar um formulário que solicita as seguintes informações do usuário:
 
-## Code scaffolding
+1. Nome completo
+2. Data de nascimento
+3. CPF
+4. E-mail
+5. Telefone
+6. CEP
+7. Endereço completo (rua, número, complemento, bairro, cidade, estado)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+O projeto inicial já possui um serviço que busca informações de endereço a partir do CEP utilizando o serviço ViaCEP.
 
-## Build
+**Requisitos:**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. O formulário deve ser construído usando Angular.
+2. Ao digitar o CEP, o formulário deve buscar automaticamente as informações de endereço e preenchê-las nos campos correspondentes.
+3. O formulário deve ter validações para todos os campos, garantindo que as informações inseridas estejam corretas.
+4. O design do formulário deve ser agradável e intuitivo para o usuário.
+5. O código deve ser limpo, bem comentado e seguir as melhores práticas de desenvolvimento Angular.
 
-## Running unit tests
+**Entrega:**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+O projeto deve ser entregue como um repositório Git, contendo todos os arquivos necessários para executar o aplicativo. Inclua também um README com instruções de instalação e uso, bem como quaisquer outras informações que você considere relevantes.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Boa sorte!
